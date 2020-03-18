@@ -1,0 +1,8 @@
+<h3 *ngIf="true">Tela 1 </h3>
+<input type="text" (input)="recomperarTexto($event.target.value)" /> {{nome}}
+<br> <br>
+<div *ngFor="let item of arrayNum ">
+    <p *ngIf="item !== 5 ">
+        {{item}}
+    </p>
+</div>

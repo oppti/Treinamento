@@ -1,0 +1,4 @@
+<div *ngFor=" let i of imagens">
+    <P>{{i.title}}</P>
+    <img [attr.src]="i.thumbnailUrl">
+</div>
